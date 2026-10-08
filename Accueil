@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>H2O at Home - Bryan</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:#ffffff;
+    color:#333;
+}
+
+.hero{
+    background:linear-gradient(135deg,#00bcd4,#0088cc);
+    color:white;
+    padding:50px 20px;
+    text-align:center;
+}
+
+.hero h1{
+    margin:0;
+    font-size:3em;
+}
+
+.hero p{
+    font-size:1.2em;
+}
+
+.container{
+    max-width:1000px;
+    margin:auto;
+    padding:20px;
+}
+
+.card{
+    background:white;
+    border-radius:20px;
+    padding:25px;
+    margin:20px 0;
+    box-shadow:0 5px 20px rgba(0,0,0,0.08);
+}
+
+h2{
+    color:#0088cc;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+}
+
+.universe{
+    background:#f7fbfd;
+    border-left:6px solid #00bcd4;
+    padding:20px;
+    border-radius:15px;
+}
+
+.btn{
+    display:inline-block;
+    background:#00bcd4;
+    color:white;
+    text-decoration:none;
+    padding:12px 20px;
+    border-radius:30px;
+    margin:5px;
+    font-weight:bold;
+}
+
+.footer{
+    text-align:center;
+    padding:30px;
+    color:#666;
+}
+</style>
+</head>
+
+<body>
+
+<div class="hero">
+    <h1>H2O at Home</h1>
+    <p>Votre guide personnalisé</p>
+    <h2>Bryan</h2>
+</div>
+
+<div class="container">
+
+    <div class="card">
+        <h2>📞 Contact</h2>
+        <p><strong>Bryan</strong></p>
+        <p>Téléphone : 04XX XX XX XX</p>
+        <p>E-mail : bryan@email.be</p>
+
+        <a href="tel:+32400000000" class="  <a href="mailto:bryan@email.be" class="btn">Envoyer un class="card">
+        <h2>🏡 Les Univers H2O</h2>
+
+        <div class="grid">
+
+            <div class="universe">
+                <h3>Maison</h3>
+                <p>S
